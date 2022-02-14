@@ -86,8 +86,6 @@ address {
 
 /* Start logo */
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -107,8 +105,8 @@ address {
 
 /* Start header */
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
+  padding-top: 24px;
+  padding-bottom: 25px;
   background-color: var(--primary-color-light);
   border-bottom: 1px solid var(--border-color);
 }
