@@ -229,7 +229,7 @@ address {
   padding-bottom: 94px;
 }
 .classes-item {
-  flex-basis: calc((100%-60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin-left: 30px;
 }
 .classes-title,
@@ -247,14 +247,16 @@ address {
 
 /* Start team sectioin */
 .team-title {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-top: -30px;
 }
 .team-item {
+  flex-basis: 270px;
   margin-top: 30px;
   margin-left: 30px;
   padding-bottom: 30px;
@@ -307,18 +309,14 @@ address {
   margin-left: -30px;
   margin-top: -30px;
 }
-.work-examples-caption {
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
 .work-exemples-text {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
+  padding-top: 4px;
+}
+.work-examples-container {
+  padding: 20px 24px;
 }
 .work-examples-item {
+  flex-basis: 370px;
   margin-left: 26px;
   margin-top: 30px;
   border: 1px solid var(--secondary-border-color);
